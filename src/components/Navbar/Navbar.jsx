@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
-import Resume from '../../../assets/renuga_resume_web.pdf';
+import Resume from '../../../assets/renuga_r_webDev.pdf';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
