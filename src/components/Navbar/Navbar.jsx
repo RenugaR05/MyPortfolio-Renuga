@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import Resume from '../../../assets/renuga_resume_web.pdf';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,14 +30,17 @@ export const Navbar = () => {
           <li>
             <a href="#about">About</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#experience">Experience</a>
-          </li>
+          </li> */}
           <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href={Resume} download>Resume</a>
           </li>
         </ul>
       </div>

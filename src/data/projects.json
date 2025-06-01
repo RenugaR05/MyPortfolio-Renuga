@@ -1,26 +1,10 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Movie Platform",
+    "imageSrc": "projects/moviehunt.png",
+    "description": "A sleek and responsive movie streaming platform UI built with React, featuring modern design and smooth navigation.",
+    "skills": ["javascript","React","Bootstrap"],
+    "demo": "https://renugar05.github.io/Movie-Platform-Renuga/",
+    "source": "https://github.com/RenugaR05/Movie-Platform-Renuga"
   }
 ]

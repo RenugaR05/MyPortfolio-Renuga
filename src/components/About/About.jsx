@@ -17,14 +17,22 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              <h3 style={{marginBottom:'5px',fontSize:'2rem'}}>Frontend Developer</h3>
+              <p style={{ textAlign: 'justify'}}>
+                {/* I'm a frontend developer with experience in building responsive
+                and optimized sites */}
+                🎓 I’m a recent Bachelor of Computer Applications (BCA) graduate with a passion for web development.
+
+A dedicated Frontend Developer skilled in creating responsive, user-friendly, and optimized websites.<br /><br/>
+
+🎓 Comfortable working with HTML, CSS, Javascript and React JS modern frontend libraries to bring ideas to life on the web.
+
+Always eager to explore new technologies, frameworks, and design trends to improve my skills and stay updated.
+
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
+          {/* <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
@@ -33,8 +41,8 @@ export const About = () => {
                 and APIs
               </p>
             </div>
-          </li>
-          <li className={styles.aboutItem}>
+          </li> */}
+          {/* <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
@@ -43,7 +51,7 @@ export const About = () => {
                 systems as well
               </p>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
