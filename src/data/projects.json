@@ -3,7 +3,7 @@
     "title": "Movie Platform",
     "imageSrc": "projects/moviehunt.png",
     "description": "A sleek and responsive movie streaming platform UI built with React, featuring modern design and smooth navigation.",
-    "skills": ["javascript","React","Bootstrap"],
+    "skills": ["Javascript","React","Bootstrap"],
     "demo": "https://renugar05.github.io/Movie-Platform-Renuga/",
     "source": "https://github.com/RenugaR05/Movie-Platform-Renuga"
   }

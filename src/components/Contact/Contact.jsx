@@ -27,12 +27,12 @@ export const Contact = () => {
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+          <a href="https://www.linkedin.com/myname">linkedin.com/RenugaR05</a>
         </li>
        
         <li className={styles.link} style={{ flexWrap:'wrap'}}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <a href="https://www.github.com/RenugaR05">github.com/RenugaR05</a>
         </li>
       </ul>
     </footer>
