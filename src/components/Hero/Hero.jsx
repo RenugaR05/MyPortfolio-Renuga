@@ -11,7 +11,7 @@ export const Hero = () => {
         <p className={styles.description}>
           I'm a web developer skilled in HTML, CSS, JavaScript, and React.js. I enjoy building responsive and user-friendly websites.
         </p>
-        <a href="mailto:renuga.enhance@email.com" className={styles.contactBtn}>
+        <a href="mailto:renuga.enhance@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
